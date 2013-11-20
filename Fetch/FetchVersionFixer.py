@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (c) 2013 by Tyler Riti
+# Copyright 2013 by Tyler Riti
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+
 # Based on code from Per Olofsson's PraatVersionFixer.py:
 # https://github.com/autopkg/recipes/blob/master/Praat/PraatVersionFixer.py
 
