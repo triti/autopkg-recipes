@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Exit early if not installing to the boot drive.
+[[ "$3" == "/" ]] || exit 0
+
+echo "Installing to the boot drive... Continuing..."
+
+# Exit early if no user is logged in to the console.
+console_owner=$(/usr/bin/stat -f '%Su' /dev/console)
+[[ $console_owner != "root" ]] || exit 0
+
+echo "Console is not owned by root... Continuing..."
+
+echo "Launching helper app as $console_owner..."
+
+# Launch helper app as the currently logged in user.
+/usr/bin/open /Applications/Box\ Edit.app
+
+echo "Done."
+
+exit 0
