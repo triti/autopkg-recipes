@@ -203,7 +203,7 @@ class MSOffice2011UpdateInfoProvider(Processor):
         req.add_header("User-Agent",
             "Microsoft%20AutoUpdate/3.0.2 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)")        
         try:
-            fref = urllib2.urlopen(base_url)
+            fref = urllib2.urlopen(req)
             data = fref.read()
             fref.close()
         except BaseException as err:
