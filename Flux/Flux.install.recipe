@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads and installs the latest f.lux application.</string>
+	<key>Identifier</key>
+	<string>com.github.triti.install.Flux</string>
+	<key>Input</key>
+	<dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.triti.download.Flux</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>Unarchiver</string>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>purge_destination</key>
+				<false/>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
