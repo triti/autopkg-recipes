@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest Box Edit Installer disk image and builds a package.</string>
 	<key>Identifier</key>
-	<string>com.github.fizzboy.pkg.BoxEdit</string>
+	<string>com.github.triti.pkg.BoxEdit</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.fizzboy.download.BoxEdit</string>
+	<string>com.github.hansen-m.download.boxedit</string>
 	<key>Process</key>
 	<array>
 		<dict>
