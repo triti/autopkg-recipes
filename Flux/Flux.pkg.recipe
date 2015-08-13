@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest f.lux application and builds a package.</string>
+	<string>Downloads the latest f.lux application and builds a package. This recipe differs from others by pulling the bundle id from the app instead of hardcoding it in a variable.</string>
 	<key>Identifier</key>
 	<string>com.github.triti.pkg.Flux</string>
 	<key>Input</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.triti.download.Flux</string>
+	<string>com.github.jaharmi.download.Flux</string>
 	<key>Process</key>
 	<array>
 		<dict>

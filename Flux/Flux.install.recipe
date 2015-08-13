@@ -12,7 +12,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.triti.download.Flux</string>
+	<string>com.github.jaharmi.download.Flux</string>
 	<key>Process</key>
 	<array>
 		<dict>
